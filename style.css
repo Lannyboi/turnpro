@@ -92,6 +92,7 @@ header {
 }
 
 #bannerimg {
+    box-shadow: 0px 4px 4px 0px #00000040;
     min-height: 150px;
 }
 
