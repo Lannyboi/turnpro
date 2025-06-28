@@ -95,6 +95,68 @@ header {
     min-height: 150px;
 }
 
+/* Services */
+
+#ServicesHead {
+
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+
+    background: #2166AB;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    width: 90%;
+    border-radius: 20px;
+
+    margin-top: 2em;
+    
+}
+
+#ServicesHead h1 {
+    color: #ffffff;
+    padding: 13px 47px;
+    margin: 0%;
+    
+}
+
+#SEL {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.ServicesEl {
+    max-width: 400px;
+    max-height: 400px;
+ 
+    margin: 0%;
+
+    border: 2px solid #2166ABBF;
+    border-radius: 20px;
+
+    scale: 75%;
+}
+
+
+.ServicesEl img {
+    align-self: center;
+
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+
+}
+
+.ServicesEl h2, .ServicesEl p {
+    margin-top: 16px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    text-wrap: wrap;
+}
+
 @media (max-width: 767px) {
    
     #phone3lines {
@@ -135,5 +197,46 @@ header {
     #phone3lines {
         display: none;
     }
+
+
+    /* Services */
+
+    #SEL {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 90px;
+}
+
+
+.ServicesEl {
+
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    border: 2px solid #2166ABBF;
+    border-radius: 20px;
+
+    scale: 100%;
+
+}
+
+.ServicesEl img {
+
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+
+}
+
+.ServicesEl h2, .ServicesEl p {
+    margin-top: 16px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 }
