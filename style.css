@@ -17,7 +17,10 @@ body {
 /* header */
 
 header {
+    position: relative;
+    z-index: 2;
     background: linear-gradient(90deg, #2166AB 15%, #1F5E9C 100%);
+    box-shadow: 0px 4px 4px 0px #00000040;
     display: flex;
     height: 70px;
     width: 100%;
