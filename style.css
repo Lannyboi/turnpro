@@ -1,3 +1,8 @@
+html {
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
 
 body {
     font-family: Inter;
