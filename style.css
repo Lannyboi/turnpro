@@ -4,6 +4,8 @@ html {
     max-width: 1500px;
     margin: 0px auto;
 
+    scroll-behavior: smooth;
+
 }
 
 
@@ -62,7 +64,7 @@ header {
     
     text-decoration: none;
     text-shadow: 0px 4px 4px #00000040;
-    
+
 }
 
 .navEl:hover {
