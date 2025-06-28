@@ -1,0 +1,54 @@
+
+
+/* header */
+
+header {
+    background: linear-gradient(90deg, #2166AB 15%, #1F5E9C 100%);
+    display: flex;
+    height: 70px;
+}
+
+/* logo */
+
+#logo {
+    display: flex;
+}
+
+
+/* navbar phone */
+
+#navbar {
+    display: none;
+}
+
+.navEl {
+    font-family: Inter;
+    font-size: 24px;
+    color: #ffffff;
+    
+    margin: 20px;
+    
+    text-decoration: none;
+
+}
+
+/*banner*/
+
+
+
+
+
+@media (min-width: 768px) {
+    
+    /* navbar Tab/Pc */
+    
+    #navbar {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+    justify-content: space-between;
+    }
+
+}
