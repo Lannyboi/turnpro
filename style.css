@@ -110,6 +110,8 @@ header {
 
     margin: 17px;
 
+    box-shadow: none;
+
 }
 
 /*banner*/
@@ -388,7 +390,6 @@ footer p {
     #phone3lines {
 
     display: flex;
-    box-shadow: 0px 2px 2px 0px #00000040;
 
 }
     
