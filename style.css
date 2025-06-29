@@ -209,6 +209,57 @@ header {
 
 }
 
+ /* Reviews */
+
+#Reviews {
+    display: block;
+    align-content: center;
+
+
+    width: 100%;
+    min-height: 167px;
+
+
+    background: #2166AB;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+#ReviewsHead, #ReviewsText {
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    vertical-align: middle;
+
+    text-align: center;
+
+    color: #ffffff;
+    text-shadow: 0px 4px 4px #00000040;
+
+}
+
+#ReviewsHead h1 {
+
+    margin: 0% 10px;
+
+    font-size: 32px;
+
+}
+
+#ReviewsText p {
+
+    margin: 0% 10px;
+
+    font-size: 20px;
+
+}
+
+/* Contacts */
+
+
+
+
 @media (max-width: 767px) {
    
     #phone3lines {
@@ -221,8 +272,10 @@ header {
 
 @media (min-width: 768px) {
     
-    /* navbar Tab / Pc */
+
+        /* navbar Tab / Pc */
     
+
     #navbar {
     
         display: flex;
@@ -258,7 +311,9 @@ header {
     }
 
 
-    /* Services */
+
+        /* Services */
+
 
     #SEL {
 
@@ -302,5 +357,24 @@ header {
 
 }
 
+
+    /* Reviews */
+
+
+#ReviewsHead h1 {
+
+    margin: 0%;
+
+    font-size: 48px;
+
+}
+
+#ReviewsText p {
+
+    margin: 0%;
+
+    font-size: 24px;
+
+}
 
 }
