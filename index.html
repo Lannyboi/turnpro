@@ -15,6 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playball&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" type="text/css" href="style.css"> 
+        <script src="main.js"></script>
 
         <title>Turn Pro, LLC Specializes in Window Cleaning. - Turn Pro Professional cleaning. 541.405.3084</title>
     </head>
@@ -33,7 +34,7 @@
                     <a class="navEl" href="#Contact">Contact</a>
                 </div>
                 <div id="callnav">
-                    <a id="navCallNow" class="navEl" href="#">Call Now</a>
+                    <a id="navCallNow" class="navEl" href="#tel:5414053084">Call Now</a>
                 </div>
             </div>
 
@@ -41,6 +42,13 @@
 
             <div id="phone3lines">
                 <a onclick="phonemenu()"><img src="./img/3lines.png" alt="Phone Menu"></a>
+            </div>
+            <div id="mobileMenu" style="display:none;">
+                <a class="navEl" href="#" onclick="phonemenu()">Home</a>
+                <a class="navEl" href="#Services" onclick="phonemenu()">Services</a>
+                <a class="navEl" href="#" onclick="phonemenu()">About</a>
+                <a class="navEl" href="#Contact" onclick="phonemenu()">Contact</a>
+                <a id="navCallNow" class="navEl" href="tel:5414053084" onclick="phonemenu()">Call Now</a>
             </div>
 
 
