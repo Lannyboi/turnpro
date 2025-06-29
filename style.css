@@ -38,6 +38,33 @@ header {
 
 }
 
+.RoundHead {
+
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+
+    background: #2166AB;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    width: 90%;
+    border-radius: 20px;
+
+    margin-top: 2em;
+    
+}
+
+.RoundHead h1 {
+
+    color: #ffffff;
+    text-shadow: 0px 4px 4px #00000040;
+
+    padding: 13px 47px;
+    margin: 0%;
+    
+}
+
+
 /* logo */
 
 #logo {
@@ -138,32 +165,6 @@ header {
 
 /* Services */
 
-#ServicesHead {
-
-    display: flex;
-    justify-self: center;
-    justify-content: center;
-
-    background: #2166AB;
-    box-shadow: 0px 4px 4px 0px #00000040;
-
-    width: 90%;
-    border-radius: 20px;
-
-    margin-top: 2em;
-    
-}
-
-#ServicesHead h1 {
-
-    color: #ffffff;
-    text-shadow: 0px 4px 4px #00000040;
-
-    padding: 13px 47px;
-    margin: 0%;
-    
-}
-
 #SEL {
 
     display: flex;
@@ -257,14 +258,108 @@ header {
 
 /* Contacts */
 
+#CEL {
+    
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 40px;
+    margin-bottom: 150px;
+
+}
+
+.ContactEl {
+
+    display: flex;
+
+    width: 500px;
+    height: 250px;
+ 
+    margin: 0%;
+
+    border: 2px solid #2166ABBF;
+    border-radius: 20px;
+
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+.ContactEl img {
+
+    align-self: left;
+
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+
+}
+
+.ContactElText {
+    
+    display: block;
+
+    margin-left: 20px;
+
+}
+
+.ContactElText h2 {
+    
+    font-family: Playball;
+    font-size: 28px;
+    font-weight: 400;
+
+    text-decoration: underline;
+
+}
+
+.ContactElText p {
+
+    font-size: 24px;
+    font-weight: 200;
+
+}
 
 
+.ContactElButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContactElButtons a{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: #2166AB;
+    color: #ffffff;
+
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+
+    width: 90px;
+    height: 40px;
+}
+
+.ContactElButtons a:hover {
+
+    background: #1d5a97;
+
+}
 
 @media (max-width: 767px) {
    
     #phone3lines {
 
     display: flex;
+    box-shadow: 0px 2px 2px 0px #00000040;
 
 }
     
