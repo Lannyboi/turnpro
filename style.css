@@ -10,8 +10,11 @@ html {
 
 
 body {
+    
     background-color: white;
     font-family: Inter;
+
+    margin: 0%;
 
 }
 
@@ -410,7 +413,7 @@ footer p {
 }
 
 @media (max-width: 767px) {
-   
+
     #phone3lines {
 
     display: flex;
@@ -559,5 +562,18 @@ footer p {
 
 }
 
+
+}
+
+
+@media (min-width: 375px) and (max-width: 767px) {
+    
+    .ServicesEl {
+        scale: 82%;
+    }
+    
+    .ContactEl {
+        scale: 85%;
+    }
 
 }
