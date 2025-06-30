@@ -30,6 +30,7 @@ body {
 
 header {
     display: flex;
+    
     height: 70px;
     width: 100%;
 
@@ -447,10 +448,15 @@ header {
 footer {
     background: #2166AB;
     
+    display: flex;
+
+    flex-wrap: wrap;
+
     width: 100%;
     height: 70px;
 
-
+    vertical-align: middle;
+    justify-content: center;
     align-content: center;
     text-align: center;
 }
@@ -459,10 +465,18 @@ footer p {
 
     color: #ffffff;
 
+    margin: 18px 12px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
+
+}
+
+footer a {
+
+    scale: 75%;
 
 }
 
@@ -552,86 +566,93 @@ footer p {
 }
 
 
-.ServicesEl {
+    .ServicesEl {
 
 
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
 
-    border: 2px solid #2166ABBF;
-    border-radius: 20px;
+        border: 2px solid #2166ABBF;
+        border-radius: 20px;
 
-    scale: 100%;
+        scale: 100%;
 
-}
+    }
 
-.ServicesEl img {
+    .ServicesEl img {
 
-    border-top-left-radius: 20px ;
-    border-top-right-radius: 20px ;
+        border-top-left-radius: 20px ;
+        border-top-right-radius: 20px ;
 
-}
+    }
 
-.ServicesEl h2, .ServicesEl p {
+    .ServicesEl h2, .ServicesEl p {
 
-    margin-top: 16px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+        margin-top: 16px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
 
-}
-
-
-    /* Reviews */
+    }
 
 
-#ReviewsHead h1 {
-
-    margin: 0%;
-
-    font-size: 48px;
-
-}
-
-#ReviewsText p {
-
-    margin: 0%;
-
-    font-size: 24px;
-
-}
+        /* Reviews */
 
 
-    /* Contacts */
+    #ReviewsHead h1 {
+
+        margin: 0%;
+
+        font-size: 48px;
+
+    }
+
+    #ReviewsText p {
+
+        margin: 0%;
+
+        font-size: 24px;
+
+    }
 
 
-.ContactEl {
+        /* Contacts */
 
-    scale: 100%;
 
-}
+    .ContactEl {
 
-.ContactElText p {
+        scale: 100%;
 
-    font-size: 24px;
-    font-weight: 200;
+    }
 
-}
+    .ContactElText p {
 
-.ContactElButtons {
+        font-size: 24px;
+        font-weight: 200;
 
-    margin-top: 0px;
+    }
 
-}
+    .ContactElButtons {
 
-.ContactElButtons a{
+        margin-top: 0px;
 
-    margin-right: 0%;
+    }
 
-}
+    .ContactElButtons a{
 
+        margin-right: 0%;
+
+    }
+
+    footer a {
+
+        scale: 100%;
+
+        margin: 0px 20px;
+
+    }
 
 }
 
@@ -639,11 +660,21 @@ footer p {
 @media (min-width: 375px) and (max-width: 767px) {
     
     .ServicesEl {
+
         scale: 82%;
+
     }
     
     .ContactEl {
+
         scale: 85%;
+
+    }
+    
+    footer a {
+
+        scale: 100%;
+
     }
 
 }
