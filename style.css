@@ -118,6 +118,10 @@ header {
 
 }
 
+#phone3lines a {
+    margin-right: 13px;
+}
+
 #mobileMenu {
     position: absolute;
     top: 70px;
@@ -158,15 +162,17 @@ header {
     /* on top of img */
 
     position: absolute;
-    top: 78%;
+    top: 51%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     /* rest */
+    text-align: center;
 
     text-wrap: nowrap;
 
     text-shadow: 0px 4px 4px #00000040;
+    
 
 }
 
@@ -176,6 +182,12 @@ header {
 
     font-size: 24px;
 
+    text-shadow: 
+        -1px -1px 0 black, 
+        1px -1px 0 black, 
+        -1px 1px 0 black, 
+        1px 1px 0 black;
+
 }
 
 #bannertext h2 {
@@ -183,6 +195,13 @@ header {
     margin-top: 3px;
 
     font-size: 16px;
+
+    text-shadow: 
+        -1px -1px 0 black, 
+        1px -1px 0 black, 
+        -1px 1px 0 black, 
+        1px 1px 0 black;
+
 }
 
 #bannerimg {
@@ -192,6 +211,40 @@ header {
     min-height: 150px;
 
 }
+
+#bannertext a{
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #2166AB;
+    color: #ffffff;
+
+    box-shadow: 0px 4px 4px 0px #00000040;
+    text-shadow: 
+        -1px -1px 0 black, 
+        1px -1px 0 black, 
+        -1px 1px 0 black, 
+        1px 1px 0 black;
+    
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    
+    width: 90px;
+    height: 25px;
+
+}
+
+#bannertext a:hover {
+
+    background: #1d5a97;
+
+}
+
 
 /* Services */
 
@@ -441,6 +494,10 @@ footer p {
 
     }
 
+    #bannertext {
+        top: 70%;
+    }
+
     #bannertext h1 {
 
         margin-bottom: 0%;
@@ -456,6 +513,18 @@ footer p {
         font-size: 26px;
 
     }
+
+    #bannertext a{
+
+    font-size: 32px;
+
+    scale: 100%;
+    margin-top: -10px;
+
+    width: 206px;
+    height: 60px;
+
+}
 
     #phone3lines {
 
