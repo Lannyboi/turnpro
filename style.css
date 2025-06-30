@@ -659,6 +659,33 @@ footer a {
 
 @media (min-width: 375px) and (max-width: 767px) {
     
+    #bannertext {
+        top: 60%;
+    }
+    
+    #bannertext h1 {
+
+        font-size: 27px;
+
+    }
+
+    #bannertext h2 {
+
+        font-size: 19px;
+
+    }
+    
+    #bannertext a{
+
+    font-size: 19px;
+    font-weight: 700;
+    text-decoration: none;
+    
+    width: 110px;
+    height: 35px;
+
+}
+
     .ServicesEl {
 
         scale: 82%;
