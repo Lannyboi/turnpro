@@ -519,14 +519,14 @@ footer a {
     }
 
     #bannertext {
-        top: 70%;
+        top: 54%;
     }
 
     #bannertext h1 {
 
         margin-bottom: 0%;
 
-        font-size: 42px;
+        font-size: 60px;
 
     }
 
@@ -534,21 +534,22 @@ footer a {
 
         margin-top: 3px;
 
-        font-size: 26px;
+        font-size: 42px;
 
     }
 
-    #bannertext a{
+    #bannertext a {
+        
+        font-size: 40px;
 
-    font-size: 32px;
+        scale: 100%;
 
-    scale: 100%;
-    margin-top: -10px;
+        margin-top: -10px;
 
-    width: 206px;
-    height: 60px;
+        width: 300px;
+        height: 70px;
 
-}
+    }
 
     #phone3lines {
 
@@ -743,6 +744,35 @@ footer a {
 
 @media (min-width: 768px) and (max-width: 887px) {
     
+    #bannertext h1 {
+
+        margin-bottom: 0%;
+
+        font-size: 42px;
+
+    }
+
+    #bannertext h2 {
+
+        margin-top: 3px;
+
+        font-size: 26px;
+
+    }
+
+    #bannertext a{
+
+        font-size: 32px;
+
+        scale: 100%;
+        margin-top: -10px;
+
+        width: 206px;
+        height: 60px;
+
+    }
+
+
     #Services {
 
         max-width: 444px;
