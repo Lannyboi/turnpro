@@ -352,6 +352,12 @@ header {
 
 /* Contacts */
 
+#ContactHead {
+
+    width: 75%;
+
+}
+
 #CEL {
     
     display: flex;
