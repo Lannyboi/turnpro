@@ -184,10 +184,10 @@ header {
     font-size: 24px;
 
     text-shadow: 
-        -1px -1px 0 black, 
-        1px -1px 0 black, 
-        -1px 1px 0 black, 
-        1px 1px 0 black;
+        -2px -2px 0 black, 
+        2px -2px 0 black, 
+        -2px 2px 0 black, 
+        2px 2px 0 black;
 
 }
 
@@ -198,10 +198,10 @@ header {
     font-size: 16px;
 
     text-shadow: 
-        -1px -1px 0 black, 
-        1px -1px 0 black, 
-        -1px 1px 0 black, 
-        1px 1px 0 black;
+        -2px -2px 0 black, 
+        2px -2px 0 black, 
+        -2px 2px 0 black, 
+        2px 2px 0 black;
 
 }
 
@@ -224,10 +224,10 @@ header {
 
     box-shadow: 0px 4px 4px 0px #00000040;
     text-shadow: 
-        -1px -1px 0 black, 
-        1px -1px 0 black, 
-        -1px 1px 0 black, 
-        1px 1px 0 black;
+        -2px -2px 0 black, 
+        2px -2px 0 black, 
+        -2px 2px 0 black, 
+        2px 2px 0 black;
     
     border-radius: 10px;
 
