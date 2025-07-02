@@ -52,7 +52,7 @@ header {
     background: #2166AB;
     box-shadow: 0px 4px 4px 0px #00000040;
 
-    width: 80%;
+    width: 100%;
     border-radius: 20px;
 
     margin-top: 2em;
@@ -352,6 +352,12 @@ header {
 
 /* Contacts */
 
+#ContactHead {
+
+    width: 75%;
+
+}
+
 #CEL {
     
     display: flex;
@@ -496,6 +502,7 @@ footer a {
 
     display: flex;
 
+
 }
     
 }
@@ -519,14 +526,20 @@ footer a {
     }
 
     #bannertext {
-        top: 70%;
+        top: 54%;
     }
 
     #bannertext h1 {
 
         margin-bottom: 0%;
 
-        font-size: 42px;
+        font-size: 60px;
+
+        text-shadow: 
+            -2px -2px 0 black, 
+            2px -2px 0 black, 
+            -2px 2px 0 black, 
+            2px 2px 0 black;
 
     }
 
@@ -534,21 +547,34 @@ footer a {
 
         margin-top: 3px;
 
-        font-size: 26px;
+        font-size: 42px;
+
+        text-shadow: 
+            -2px -2px 0 black, 
+            2px -2px 0 black, 
+            -2px 2px 0 black, 
+            2px 2px 0 black;
 
     }
 
-    #bannertext a{
+    #bannertext a {
+        
+        font-size: 40px;
 
-    font-size: 32px;
+        text-shadow: 
+            -2px -2px 0 black, 
+            2px -2px 0 black, 
+            -2px 2px 0 black, 
+            2px 2px 0 black;
 
-    scale: 100%;
-    margin-top: -10px;
+        scale: 100%;
 
-    width: 206px;
-    height: 60px;
+        margin-top: -10px;
 
-}
+        width: 300px;
+        height: 70px;
+
+    }
 
     #phone3lines {
 
@@ -743,6 +769,35 @@ footer a {
 
 @media (min-width: 768px) and (max-width: 887px) {
     
+    #bannertext h1 {
+
+        margin-bottom: 0%;
+
+        font-size: 42px;
+
+    }
+
+    #bannertext h2 {
+
+        margin-top: 3px;
+
+        font-size: 26px;
+
+    }
+
+    #bannertext a{
+
+        font-size: 32px;
+
+        scale: 100%;
+        margin-top: -10px;
+
+        width: 206px;
+        height: 60px;
+
+    }
+
+
     #Services {
 
         max-width: 444px;
@@ -755,5 +810,11 @@ footer a {
         width: 404px;
     
     } 
+
+    .navEl {
+
+        margin: 18px;
+
+    }
 
 }
